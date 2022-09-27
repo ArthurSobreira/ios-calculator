@@ -57,3 +57,17 @@ html, body #fullheight{
     color: #000000
 }
 
+.item1 {
+    background-color: #a5a5a5;
+    border: none;
+}
+
+.item3 {
+    background-color: #ff9f0a;
+    border: none
+}
+
+.numbers, .comma {
+    background-color: #343434;
+    border: none;
+}
