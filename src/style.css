@@ -22,3 +22,9 @@ html, body #fullheight{
     color: #ffffff;
     height: 39%;
 }
+
+.result span {
+    margin-right: 30px;
+    font-size: 110px;
+    justify-self: flex-end;
+}
