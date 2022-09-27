@@ -28,3 +28,22 @@ html, body #fullheight{
     font-size: 110px;
     justify-self: flex-end;
 }
+
+.buttons {
+    width: 100%;
+    height: 60%;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}    
