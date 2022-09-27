@@ -71,3 +71,15 @@ html, body #fullheight{
     background-color: #343434;
     border: none;
 }
+
+.negative, .clear {
+    color: #000000;
+}
+
+.itemZero {
+    background-color: #343434;
+    width: 200px;
+    border-radius: 135px;
+    grid-column: span 2;
+    border: none;
+}
