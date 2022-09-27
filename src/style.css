@@ -41,9 +41,12 @@ html, body #fullheight{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    font-size: 40px;
     color: #ffffff;
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
 }    
