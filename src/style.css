@@ -49,4 +49,11 @@ html, body #fullheight{
     cursor: pointer;
     align-self: center;
     justify-self: center;
-}    
+}
+
+.percent {
+    background-color: #a5a5a5;
+    border: none;
+    color: #000000
+}
+
