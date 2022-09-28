@@ -27,6 +27,7 @@ html, body #fullheight{
 .result span {
     font-size: 110px;
     margin-right: 15px;
+    margin-top: 200px;
     justify-self: flex-end;
 }
 
@@ -34,7 +35,7 @@ html, body #fullheight{
     width: 100%;
     height: 60%;
     background-color: #000000;
-    margin-top: 230px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
