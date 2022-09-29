@@ -1,2 +1,1 @@
-# repo-template
-Repository that contains .gitattributes, .editorconfig and .gitignore
+# IOS Calculator Clone
