@@ -4,38 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>IOS Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="result">
-            <span>0</span>
-        </div>
+    <section>
+        <div class="container">
+            <div class="panel">
+                <p class="result">0</p>
+            </div>
+            
+            <table>
+                <tr>
+                    <td><button id="ac" class="btn especial">AC</button></td>
+                    <td><button id="sign" class="btn especial">+/-</button></td>
+                    <td><button id="percentage" class="btn especial">%</button></td>
+                    <td><button id="division" class="btn operator">/</button></td>
+                </tr>
+                
+                <tr>
+                    <td><button id="seven" class="btn number">7</button></td>
+                    <td><button id="eight" class="btn especial">8</button></td>
+                    <td><button id="nine" class="btn especial">9</button></td>
+                    <td><button id="multiplication" class="btn operator">x</button></td>
+                </tr>    
+                
+                <tr>
+                    <td><button id="four" class="btn number">4</button></td>
+                    <td><button id="five" class="btn number">5</button></td>
+                    <td><button id="six" class="btn number">6</button></td>
+                    <td><button id="subtraction" class="btn operator">-</button></td>
+                </tr>  
+                
+                <tr>
+                    <td><button id="one" class="btn number">1</button></td>
+                    <td><button id="two" class="btn number">2</button></td>
+                    <td><button id="three" class="btn number">3</button></td>
+                    <td><button id="addition" class="btn operator">+</button></td>
+                </tr>  
 
-        <div class="buttons">
-            <button class="item item1 clear">AC</button>
-            <button class="item item1 negative">+/-</button>
-            <button class="item percent sign">%</button>
-            <button class="item item3 sign">/</button>
-            <button class="item numbers">7</button>
-            <button class="item numbers">8</button>
-            <button class="item numbers">9</button>
-            <button class="item item3 sign">x</button>
-            <button class="item numbers">4</button>
-            <button class="item numbers">5</button>
-            <button class="item numbers">6</button>
-            <button class="item item3 sign">-</button>
-            <button class="item numbers">1</button>
-            <button class="item numbers">2</button>
-            <button class="item numbers">3</button>
-            <button class="item item3 sign">+</button>
-            <button class="item itemZero numbers">0</button>
-            <button class="item comma">,</button>
-            <button class="item item3 equals">=</button>
+                <tr>
+                    <td colspan="2"><button id="zero" class="btn number"><p id="zero">0</p></button></td>
+                    <td><button id="point" class="btn decimal">.</button></td>
+                    <td><button id="equal" class="btn operator">=</button></td>
+                </tr>  
+            </table>
         </div>
-    </div>
+    </section>
+
+    <!-- JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JS -->
     <script src="index.js"></script>
 </body>
 </html>
