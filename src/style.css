@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #9e8282;
 }
 
 section {
@@ -16,7 +16,11 @@ img {
 
 .container {
     background-color: #000000;
-    margin-top: 320px;
+    padding-top: 287px;
+    border-radius: 45px;
+    width: 410px;
+    height: 600px;
+    margin-top: 17px;
     margin-right: 20px;
     position: absolute;
 }
@@ -43,13 +47,14 @@ img {
     border-radius: 50%;
     border-style: none;
     font-size: 34px;
-    width: 80px;
-    height: 80px;
+    width: 83px;
+    height: 83px;
     margin: 5px;
 }
 
 .btn.especial {
     color: #000000;
+    margin-left: 10px;
     background-color: rgb(165, 165, 165);
 }
 
@@ -59,6 +64,7 @@ img {
 
 .btn.number, .btn.decimal {
     color: #ffffff;
+    margin-left: 10px;
     background-color: rgb(52, 52, 52);
 }
 
@@ -68,6 +74,7 @@ img {
 
 .operator {
     color: #ffffff;
+    margin-left: 10px;
     background-color: rgb(255, 159, 10);
 }
 
@@ -77,7 +84,7 @@ img {
 
 #zero {
     border-radius: 50px;
-    width: 169px;
+    width: 180px;
 }
 
 #zero p {
