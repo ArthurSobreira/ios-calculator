@@ -15,6 +15,16 @@ var finalResult = 0;
 var operator ='';
 var activeOperator = false;
 
+$('#ac').click(() => {
+    $('.result').text('');
+})
+
+$('#sign').click(() => {
+    if (firstChar() === '-'){
+        result = $('.result')
+    }
+})
+
 const calculate = () => {
     actResult = parseFloat($('.result').text())
     switch (operator){
