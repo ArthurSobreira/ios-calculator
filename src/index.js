@@ -36,8 +36,8 @@ $('#percentage').click(() => {
     }
 })
 
-$('operator').click(e => {
-    id = e.taget.id;
+$('.operator').click(e => {
+    id = e.target.id;
 
     if (id === 'equal'){
         calculate();
@@ -66,8 +66,8 @@ $('.number').click(e => {
 })
 
 $('#comma').click(() => {
-    if (emptyResult()) { append('0.'); }
-    else if (!hasChar()) {append('.'); }
+    if (emptyResult()) { append('0,'); }
+    else if (!hasChar()) {append(','); }
 })
 
 const calculate = () => {
