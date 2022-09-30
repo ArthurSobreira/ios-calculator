@@ -29,6 +29,13 @@ $('#sign').click(() => {
     }
 })
 
+$('#percentage').click(() => {
+    if (!emptyResult()){
+        percentage = parseFloat($('.result').text())/100;
+        $('.result').text(percentage);
+    }
+})
+
 const calculate = () => {
     actResult = parseFloat($('.result').text())
     switch (operator){
