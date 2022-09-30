@@ -65,7 +65,10 @@ $('.number').click(e => {
     } else { append(num); }
 })
 
-$('#comma')
+$('#comma').click(() => {
+    if (emptyResult()) { append('0.'); }
+    else if (!hasChar()) {append('.'); }
+})
 
 const calculate = () => {
     actResult = parseFloat($('.result').text())
