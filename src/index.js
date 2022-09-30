@@ -15,3 +15,22 @@ var finalResult = 0;
 var operator ='';
 var activeOperator = false;
 
+const calculate = () => {
+    actResult = parseFloat($('.result').text())
+    switch (operator){
+        case 'addition':
+            finalResult += actResult;
+            break;
+        case 'subtraction':
+            finalResult -= actResult;
+            break;
+        case 'multiplication':
+            finalResult *= actResult;
+            break;
+        case 'division':
+            finalResult /= actResult;
+            break;
+        default:
+            break;
+    }
+}
