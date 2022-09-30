@@ -1,5 +1,5 @@
 body {
-    background-color: #9e8282;
+    background-color: #4e636d;
 }
 
 section {
@@ -9,19 +9,20 @@ section {
 }
 
 img {
-    height: 970px;
+    height: 975px;
     margin-top: -20px;
     margin-left: 3px;
 }
 
 .container {
     background-color: #000000;
-    padding-top: 287px;
+    padding-top: 250px;
+    padding-right: 3px;
     border-radius: 45px;
     width: 410px;
     height: 600px;
-    margin-top: 17px;
-    margin-right: 20px;
+    margin-top: 46px;
+    margin-right: -5px;
     position: absolute;
 }
 
