@@ -57,7 +57,7 @@ $('.number').click(e => {
     if (activeOperator){
         finalResult = parseFloat($('.result').text());
         $('.result').text('');
-        activeOper= false;
+        activeOperator = false;
     }
 
     if (firstChar() === '0'){
@@ -65,13 +65,13 @@ $('.number').click(e => {
     } else { append(num); }
 })
 
-$('#comma').click(() => {
+$('#point').click(() => {
     if (emptyResult()) { append('0,'); }
-    else if (!hasChar()) {append(','); }
+    else if (!hasChar()) { append('.'); }
 })
 
 const calculate = () => {
-    actResult = parseFloat($('.result').text())
+    actResult = parseFloat($('.result').text());
     switch (operator){
         case 'addition':
             finalResult += actResult;
