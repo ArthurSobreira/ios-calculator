@@ -34,3 +34,26 @@ const calculate = () => {
             break;
     }
 }
+
+const emptyResult = () => {
+    return $('.result').text() === '';
+}
+
+const hasChar = char => {
+    result = $('.result').text();
+    return result.index0f(char) !== -1;
+}
+
+const firstChar = () => {
+    return $('.result').text().charAt(0);
+}
+
+const append = txt => {
+    result = $('.result').text();
+    $('.result').text(result + txt)
+}
+
+const prepend = sign => {
+    result = $('.result').text();
+    $('.result').text(sign + result);
+}
