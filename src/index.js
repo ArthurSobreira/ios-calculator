@@ -36,6 +36,20 @@ $('#percentage').click(() => {
     }
 })
 
+$('#operator').click(e => {
+    id = e.taget.id;
+
+    if (id === 'equal'){
+        calculate();
+        $('.result').text(finalResult);
+        operator = '';
+        activeOperator = false;
+    } else {
+        operator = id;
+        activeOperator = true;
+    }
+})
+
 const calculate = () => {
     actResult = parseFloat($('.result').text())
     switch (operator){
