@@ -21,7 +21,11 @@ $('#ac').click(() => {
 
 $('#sign').click(() => {
     if (firstChar() === '-'){
-        result = $('.result')
+        result = $('.result').text()
+        sbstr = result.substring(1, result.length);
+        $('.result').text(sbstr);
+    } else if (!emptyResult()) {
+        prepend('-');
     }
 })
 
