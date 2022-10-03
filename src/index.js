@@ -66,8 +66,9 @@ $('.number').click(e => {
 })
 
 $('#point').click(() => {
-    if (!emptyResult()) { append('.'); }
-    else if (!hasChar()) { append('0.'); }
+    if (!emptyResult()) { 
+        append('.'); 
+    } else { append('0.'); }
 })
 
 const calculate = () => {
