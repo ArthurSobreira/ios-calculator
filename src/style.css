@@ -58,31 +58,31 @@ img {
 .btn.especial {
     color: #000000;
     margin-left: 10px;
-    background-color: rgb(165, 165, 165);
+    background-color: #a5a5a5;
 }
 
 .btn.especial:hover {
-    background-color: rgb(200, 200, 200);
+    background-color: #c8c8c8;
 }
 
 .btn.number, .btn.decimal {
     color: #ffffff;
     margin-left: 10px;
-    background-color: rgb(52, 52, 52);
+    background-color: #343434;
 }
 
 .btn.number:hover, .btn.decimal:hover {
-    background-color: rgb(87, 87, 87);
+    background-color: #575757;
 }
 
 .operator {
     color: #ffffff;
     margin-left: 10px;
-    background-color: rgb(255, 159, 10);
+    background-color: #ff9f0a;
 }
 
 .operator:hover {
-    background-color: rgb(255, 173, 50);
+    background-color: #ffad32;
 }
 
 #zero {
