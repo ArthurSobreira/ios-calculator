@@ -95,3 +95,14 @@ img {
     margin-top: 23px;
     margin-left: 27px;
 }
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    margin: 200px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #ff9f0a;
+}
