@@ -51,6 +51,10 @@ $('.operator').click(e => {
 })
 
 $('.number').click(e => {
+    if (firstChar() === '0' & !pointIncluded()) {
+        $('.result').text('');
+    }
+
     id = e.target.id;
     num = numbers[id];
 
