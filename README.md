@@ -6,6 +6,6 @@
     <h2>Main Objectives</h2>
     <p>This project was developed with the aim of putting to the test my knowledge about <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> web development languages. If interested, the project website can be accessed through the following link:</p><br>
     <div align=center>
-        <a href='https://arthursobreira.github.io/ios-calculator/' target="_blank"><img src=images/ios-calculator-link.png alt=ios-calculator-link align=center height=55px
+        <a href='https://arthursobreira.github.io/ios-calculator/' target="_blank"><img src=images/ios-calculator-link.png alt="ios-calculator-link" height=55px></a>
     </div>
 </div>
