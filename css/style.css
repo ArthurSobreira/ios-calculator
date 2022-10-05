@@ -3,7 +3,7 @@ body {
     zoom: 80%;
 }
 
-section {
+main {
     display: flex;
     justify-content: center;
     padding: 4%;
