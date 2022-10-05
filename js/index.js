@@ -51,12 +51,18 @@ $('.operator').click(e => {
 })
 
 $('.number').click(e => {
-    if (firstChar() === '0' & !pointIncluded()) {
+    if (firstChar() === '0' && !pointIncluded()) {
         $('.result').text('');
     }
 
     id = e.target.id;
     num = numbers[id];
+
+    if (firstChar() === '0'){
+        if (secoundChar() === '.'){
+            append(num)
+        }
+    }
 
     if (activeOperator){
         finalResult = parseFloat($('.result').text());
@@ -106,6 +112,10 @@ const hasChar = char => {
 
 const firstChar = () => {
     return $('.result').text().charAt(0);
+}
+
+const secoundChar = () => {
+    return $('.result').text().charAt(1);
 }
 
 const pointIncluded = () => {
