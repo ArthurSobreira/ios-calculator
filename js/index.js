@@ -24,7 +24,7 @@ $('#sign').click(() => {
         result = $('.result').text()
         sbstr = result.substring(1, result.length);
         $('.result').text(sbstr);
-    } else if (!emptyResult() && firstChar() !== '0') {
+    } else if (!emptyResult()) {
         prepend('-');
     }
 })
