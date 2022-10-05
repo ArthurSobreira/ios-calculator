@@ -76,7 +76,9 @@ $('.number').click(e => {
 })
 
 $('#point').click(() => {
-    if (!emptyResult() && !pointIncluded()) { 
+    if (emptyResult()){
+        append('0.')
+    } else if (!emptyResult() && !pointIncluded()) { 
         append('.'); 
     } 
 })
