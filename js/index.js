@@ -16,7 +16,7 @@ var operator ='';
 var activeOperator = false;
 
 $('#ac').click(() => {
-    $('.result').text('');
+    $('.result').text('0');
 })
 
 $('#sign').click(() => {
